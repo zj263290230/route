@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76D81E842491F81600BBA80B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D81E832491F81600BBA80B /* AppDelegate.m */; };
+		76D81E872491F81600BBA80B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D81E862491F81600BBA80B /* ViewController.m */; };
+		76D81E8A2491F81600BBA80B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76D81E882491F81600BBA80B /* Main.storyboard */; };
+		76D81E8C2491F81900BBA80B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76D81E8B2491F81900BBA80B /* Assets.xcassets */; };
+		76D81E8F2491F81900BBA80B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76D81E8D2491F81900BBA80B /* LaunchScreen.storyboard */; };
+		76D81E922491F81900BBA80B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D81E912491F81900BBA80B /* main.m */; };
+		76D81E9B2491F84B00BBA80B /* ZJMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D81E9A2491F84B00BBA80B /* ZJMediator.m */; };
+		76D81E9E2491F89F00BBA80B /* ZJMsgSend.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D81E9D2491F89F00BBA80B /* ZJMsgSend.m */; };
+		76D81EA12491F8C400BBA80B /* ZJURLAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D81EA02491F8C400BBA80B /* ZJURLAction.m */; };
+		76D81EA42491F8D200BBA80B /* ZJURLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D81EA32491F8D200BBA80B /* ZJURLParser.m */; };
+		76D81EA72491FF6200BBA80B /* NSURL+ZJURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D81EA62491FF6200BBA80B /* NSURL+ZJURL.m */; };
+		76D81EAB249201C900BBA80B /* NSString+ZJURLString.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D81EAA249201C900BBA80B /* NSString+ZJURLString.m */; };
+		76D81EAE249313EF00BBA80B /* UINavigationController+ZJURLAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D81EAD249313EF00BBA80B /* UINavigationController+ZJURLAction.m */; };
+		76D81EB32493485400BBA80B /* ModelAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D81EB22493485400BBA80B /* ModelAViewController.m */; };
+		76D81EB62493487C00BBA80B /* ZJMediator+ModelA.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D81EB52493487C00BBA80B /* ZJMediator+ModelA.m */; };
+		76D81EB92493550F00BBA80B /* ModeBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D81EB82493550F00BBA80B /* ModeBViewController.m */; };
+		76D81EBC2493567000BBA80B /* ZJMediator+ModelB.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D81EBB2493567000BBA80B /* ZJMediator+ModelB.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		76D81E7F2491F81600BBA80B /* ZJURLRoute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJURLRoute.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76D81E822491F81600BBA80B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76D81E832491F81600BBA80B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76D81E852491F81600BBA80B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		76D81E862491F81600BBA80B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76D81E892491F81600BBA80B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76D81E8B2491F81900BBA80B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76D81E8E2491F81900BBA80B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76D81E902491F81900BBA80B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76D81E912491F81900BBA80B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76D81E992491F84B00BBA80B /* ZJMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJMediator.h; sourceTree = "<group>"; };
+		76D81E9A2491F84B00BBA80B /* ZJMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJMediator.m; sourceTree = "<group>"; };
+		76D81E9C2491F89F00BBA80B /* ZJMsgSend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJMsgSend.h; sourceTree = "<group>"; };
+		76D81E9D2491F89F00BBA80B /* ZJMsgSend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJMsgSend.m; sourceTree = "<group>"; };
+		76D81E9F2491F8C400BBA80B /* ZJURLAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJURLAction.h; sourceTree = "<group>"; };
+		76D81EA02491F8C400BBA80B /* ZJURLAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJURLAction.m; sourceTree = "<group>"; };
+		76D81EA22491F8D200BBA80B /* ZJURLParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJURLParser.h; sourceTree = "<group>"; };
+		76D81EA32491F8D200BBA80B /* ZJURLParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJURLParser.m; sourceTree = "<group>"; };
+		76D81EA52491FF6200BBA80B /* NSURL+ZJURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+ZJURL.h"; sourceTree = "<group>"; };
+		76D81EA62491FF6200BBA80B /* NSURL+ZJURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+ZJURL.m"; sourceTree = "<group>"; };
+		76D81EA9249201C900BBA80B /* NSString+ZJURLString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ZJURLString.h"; sourceTree = "<group>"; };
+		76D81EAA249201C900BBA80B /* NSString+ZJURLString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZJURLString.m"; sourceTree = "<group>"; };
+		76D81EAC249313EF00BBA80B /* UINavigationController+ZJURLAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ZJURLAction.h"; sourceTree = "<group>"; };
+		76D81EAD249313EF00BBA80B /* UINavigationController+ZJURLAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ZJURLAction.m"; sourceTree = "<group>"; };
+		76D81EB12493485400BBA80B /* ModelAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelAViewController.h; sourceTree = "<group>"; };
+		76D81EB22493485400BBA80B /* ModelAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelAViewController.m; sourceTree = "<group>"; };
+		76D81EB42493487C00BBA80B /* ZJMediator+ModelA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZJMediator+ModelA.h"; sourceTree = "<group>"; };
+		76D81EB52493487C00BBA80B /* ZJMediator+ModelA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ZJMediator+ModelA.m"; sourceTree = "<group>"; };
+		76D81EB72493550F00BBA80B /* ModeBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModeBViewController.h; sourceTree = "<group>"; };
+		76D81EB82493550F00BBA80B /* ModeBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModeBViewController.m; sourceTree = "<group>"; };
+		76D81EBA2493567000BBA80B /* ZJMediator+ModelB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZJMediator+ModelB.h"; sourceTree = "<group>"; };
+		76D81EBB2493567000BBA80B /* ZJMediator+ModelB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ZJMediator+ModelB.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76D81E7C2491F81600BBA80B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76D81E762491F81600BBA80B = {
+			isa = PBXGroup;
+			children = (
+				76D81E812491F81600BBA80B /* ZJURLRoute */,
+				76D81E802491F81600BBA80B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76D81E802491F81600BBA80B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76D81E7F2491F81600BBA80B /* ZJURLRoute.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76D81E812491F81600BBA80B /* ZJURLRoute */ = {
+			isa = PBXGroup;
+			children = (
+				76D81E982491F82000BBA80B /* ZJURLAction */,
+				76D81E822491F81600BBA80B /* AppDelegate.h */,
+				76D81E832491F81600BBA80B /* AppDelegate.m */,
+				76D81E852491F81600BBA80B /* ViewController.h */,
+				76D81E862491F81600BBA80B /* ViewController.m */,
+				76D81EB02493482800BBA80B /* ModelB */,
+				76D81EAF2493482000BBA80B /* ModelA */,
+				76D81E882491F81600BBA80B /* Main.storyboard */,
+				76D81E8B2491F81900BBA80B /* Assets.xcassets */,
+				76D81E8D2491F81900BBA80B /* LaunchScreen.storyboard */,
+				76D81E902491F81900BBA80B /* Info.plist */,
+				76D81E912491F81900BBA80B /* main.m */,
+			);
+			path = ZJURLRoute;
+			sourceTree = "<group>";
+		};
+		76D81E982491F82000BBA80B /* ZJURLAction */ = {
+			isa = PBXGroup;
+			children = (
+				76D81E992491F84B00BBA80B /* ZJMediator.h */,
+				76D81E9A2491F84B00BBA80B /* ZJMediator.m */,
+				76D81E9C2491F89F00BBA80B /* ZJMsgSend.h */,
+				76D81E9D2491F89F00BBA80B /* ZJMsgSend.m */,
+				76D81E9F2491F8C400BBA80B /* ZJURLAction.h */,
+				76D81EA02491F8C400BBA80B /* ZJURLAction.m */,
+				76D81EA22491F8D200BBA80B /* ZJURLParser.h */,
+				76D81EA32491F8D200BBA80B /* ZJURLParser.m */,
+				76D81EA82491FF6700BBA80B /* Category */,
+			);
+			path = ZJURLAction;
+			sourceTree = "<group>";
+		};
+		76D81EA82491FF6700BBA80B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				76D81EA52491FF6200BBA80B /* NSURL+ZJURL.h */,
+				76D81EA62491FF6200BBA80B /* NSURL+ZJURL.m */,
+				76D81EA9249201C900BBA80B /* NSString+ZJURLString.h */,
+				76D81EAA249201C900BBA80B /* NSString+ZJURLString.m */,
+				76D81EAC249313EF00BBA80B /* UINavigationController+ZJURLAction.h */,
+				76D81EAD249313EF00BBA80B /* UINavigationController+ZJURLAction.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		76D81EAF2493482000BBA80B /* ModelA */ = {
+			isa = PBXGroup;
+			children = (
+				76D81EB12493485400BBA80B /* ModelAViewController.h */,
+				76D81EB22493485400BBA80B /* ModelAViewController.m */,
+				76D81EB42493487C00BBA80B /* ZJMediator+ModelA.h */,
+				76D81EB52493487C00BBA80B /* ZJMediator+ModelA.m */,
+			);
+			path = ModelA;
+			sourceTree = "<group>";
+		};
+		76D81EB02493482800BBA80B /* ModelB */ = {
+			isa = PBXGroup;
+			children = (
+				76D81EB72493550F00BBA80B /* ModeBViewController.h */,
+				76D81EB82493550F00BBA80B /* ModeBViewController.m */,
+				76D81EBA2493567000BBA80B /* ZJMediator+ModelB.h */,
+				76D81EBB2493567000BBA80B /* ZJMediator+ModelB.m */,
+			);
+			path = ModelB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76D81E7E2491F81600BBA80B /* ZJURLRoute */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76D81E952491F81900BBA80B /* Build configuration list for PBXNativeTarget "ZJURLRoute" */;
+			buildPhases = (
+				76D81E7B2491F81600BBA80B /* Sources */,
+				76D81E7C2491F81600BBA80B /* Frameworks */,
+				76D81E7D2491F81600BBA80B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJURLRoute;
+			productName = ZJURLRoute;
+			productReference = 76D81E7F2491F81600BBA80B /* ZJURLRoute.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76D81E772491F81600BBA80B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = zzt;
+				TargetAttributes = {
+					76D81E7E2491F81600BBA80B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 76D81E7A2491F81600BBA80B /* Build configuration list for PBXProject "ZJURLRoute" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76D81E762491F81600BBA80B;
+			productRefGroup = 76D81E802491F81600BBA80B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76D81E7E2491F81600BBA80B /* ZJURLRoute */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76D81E7D2491F81600BBA80B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76D81E8F2491F81900BBA80B /* LaunchScreen.storyboard in Resources */,
+				76D81E8C2491F81900BBA80B /* Assets.xcassets in Resources */,
+				76D81E8A2491F81600BBA80B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76D81E7B2491F81600BBA80B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76D81EB62493487C00BBA80B /* ZJMediator+ModelA.m in Sources */,
+				76D81E9B2491F84B00BBA80B /* ZJMediator.m in Sources */,
+				76D81EB32493485400BBA80B /* ModelAViewController.m in Sources */,
+				76D81EBC2493567000BBA80B /* ZJMediator+ModelB.m in Sources */,
+				76D81E872491F81600BBA80B /* ViewController.m in Sources */,
+				76D81E9E2491F89F00BBA80B /* ZJMsgSend.m in Sources */,
+				76D81EB92493550F00BBA80B /* ModeBViewController.m in Sources */,
+				76D81EAE249313EF00BBA80B /* UINavigationController+ZJURLAction.m in Sources */,
+				76D81EA42491F8D200BBA80B /* ZJURLParser.m in Sources */,
+				76D81E922491F81900BBA80B /* main.m in Sources */,
+				76D81EAB249201C900BBA80B /* NSString+ZJURLString.m in Sources */,
+				76D81E842491F81600BBA80B /* AppDelegate.m in Sources */,
+				76D81EA72491FF6200BBA80B /* NSURL+ZJURL.m in Sources */,
+				76D81EA12491F8C400BBA80B /* ZJURLAction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76D81E882491F81600BBA80B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76D81E892491F81600BBA80B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76D81E8D2491F81900BBA80B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76D81E8E2491F81900BBA80B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76D81E932491F81900BBA80B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		76D81E942491F81900BBA80B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76D81E962491F81900BBA80B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZJURLRoute/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.ZJURLRoute";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76D81E972491F81900BBA80B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZJURLRoute/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.ZJURLRoute";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76D81E7A2491F81600BBA80B /* Build configuration list for PBXProject "ZJURLRoute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76D81E932491F81900BBA80B /* Debug */,
+				76D81E942491F81900BBA80B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76D81E952491F81900BBA80B /* Build configuration list for PBXNativeTarget "ZJURLRoute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76D81E962491F81900BBA80B /* Debug */,
+				76D81E972491F81900BBA80B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76D81E772491F81600BBA80B /* Project object */;
+}
